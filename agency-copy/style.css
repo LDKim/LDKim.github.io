@@ -1,0 +1,112 @@
+
+.mainview-btn {
+    margin-top: 40px;
+    color: white;
+    padding: 4px;
+    height: 70px;
+    width: 230px;
+}
+
+.main-image {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.jumbotron {
+    background-color: rgba(0,0,0,0);
+}
+
+.intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#services {
+    padding: 150px 0;
+}
+
+.picture-size-1 {
+    width: 150px;
+    height: 150px;
+}
+
+.picture-size-2 {
+    width: 100%;
+}
+
+#portfolio {
+    padding: 150px;
+}
+
+
+
+.port-size {
+    width: 300px;
+}
+
+.sub-text {
+    margin: 0;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    background-color: yellow;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    cursor: pointer;
+    
+}
+
+.port-image:hover .overlay {opacity: 1;}
+
+.port-image {
+    position: relative;
+}
+
+.to-modal {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 100px;
+    height: 50px;
+}
+
+#portfolioModal1 {
+    width: 100%;
+    height: 80%;
+/*    background-color: rgba(0,0,0,0.2);*/
+    z-index: 5;
+    display: none;
+}
+
+.modal-content {
+    position: relative;
+    width: 100%;
+}
+
+.modal-close {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.modal-close-btn {
+    width: 150px;
+    height: 50px;
+}
+
+.shown {
+    font-size: 1.5rem;
+    transition: all 1s;
+}
